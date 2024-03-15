@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+    box-sizing: border-box;
+}
+.app{
+    
+    height: 100vh;
+    background: #e3f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background:white;
+    width: 100%;
+    max-width: 375px;
+    max-height: 640px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    overflow: hidden;
+
+}
+.display{
+    min-height :  200px; 
+    padding: 1.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    flex: 1 1 0%;
+}
+.display .input{
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+
+
+
+}
+.display  .output{
+    font-size: 2rem;
+    font-weight: 600;
+    width: 100%;
+    max-width: 100%;
+    overflow: auto;
+}
+.display .operation {
+    color: #19acff;
+}
+.keys .key{
+    position :relative;
+    cursor: pointer;
+    display: flex;
+   background-color: #19acff;
+   
+   
+
+   
+
+    
+}
+
+.keys .key{
+    background-color: aquamarine;
+    padding: 15px;
+    width:16%;
+    height: 20%;
+    border-radius: 12px;
+    justify-content: center;
+}
+
+.deux{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px;
+    
+
+}
+
+
+.operation{
+    color: #19acff;
+}
+
+
